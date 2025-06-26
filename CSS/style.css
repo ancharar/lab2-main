@@ -1,0 +1,154 @@
+/* Основные стили для body */
+body {
+    font-family: Arial, sans-serif; /* Простой шрифт */
+    font-size: 14px; /* Стандартный размер шрифта */
+    color: #000; /* Черный текст */
+    background-color: #fff; /* Белый фон */
+    margin: 0;
+    padding: 0;
+}
+
+/* Основные стили для формы фильтрации */
+#filter {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Светло-серый фон */
+    border: 1px solid #ccc; /* Серая граница */
+}
+
+#filter label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    color: #333; /* Темно-серый текст */
+}
+
+#filter input[type="text"],
+#filter input[type="number"] {
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #999; /* Серая граница */
+    background-color: #fff; /* Белый фон */
+    color: #000; /* Черный текст */
+}
+
+#filter input[type="button"] {
+    padding: 5px 15px;
+    background-color: #ccc; /* Серый фон */
+    color: #000; /* Черный текст */
+    border: 1px solid #999; /* Серая граница */
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#filter input[type="button"]:hover {
+    background-color: #bbb; /* Темно-серый фон при наведении */
+}
+
+/* Основные стили для формы сортировки */
+#sort {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; /* Светло-серый фон */
+    border: 1px solid #ccc; /* Серая граница */
+}
+
+/* Стили для заголовка формы */
+#sort p:first-of-type {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* Темно-серый текст */
+}
+
+/* Стили для каждого блока с выбором сортировки */
+#sort p {
+    margin: 10px 0;
+    color: #333; /* Темно-серый текст */
+}
+
+/* Стили для выпадающих списков */
+#sort select {
+    padding: 5px;
+    border: 1px solid #999; /* Серая граница */
+    background-color: #fff; /* Белый фон */
+    font-size: 14px;
+    margin-right: 10px;
+    color: #000; /* Черный текст */
+}
+
+/* Стили для чекбоксов */
+#sort input[type="checkbox"] {
+    margin-left: 10px;
+}
+
+/* Стили для кнопок */
+#sort input[type="button"] {
+    padding: 5px 15px;
+    background-color: #ccc; /* Серый фон */
+    color: #000; /* Черный текст */
+    border: 1px solid #999; /* Серая граница */
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Стили для кнопок при наведении */
+#sort input[type="button"]:hover {
+    background-color: #bbb; /* Темно-серый фон при наведении */
+}
+
+/* Стили для кнопки "Сбросить сортировку" */
+#sort input[type="button"][value="Сбросить сортировку"] {
+    background-color: #ffcccb; /* Светло-розовый фон */
+}
+
+/* Стили для кнопки "Сбросить сортировку" при наведении */
+#sort input[type="button"][value="Сбросить сортировку"]:hover {
+    background-color: #ff9999; /* Розовый фон при наведении */
+}
+
+/* Основные стили для таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #ccc; /* Серая граница */
+}
+
+/* Стили для заголовков таблицы */
+th {
+    background-color: #ccc; /* Серый фон */
+    color: #000; /* Черный текст */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #999; /* Темно-серая граница */
+}
+
+/* Стили для ячеек таблицы */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc; /* Серая граница */
+    text-align: left;
+    color: #000; /* Черный текст */
+}
+
+/* Подсветка строк при наведении */
+tr:hover {
+    background-color: #f0f0f0; /* Светло-серый фон при наведении */
+}
+
+/* Чередование цветов строк (опционально) */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Светло-серый фон для четных строк */
+}
+
+/* Стили для первой ячейки в строке (опционально) */
+td:first-child, th:first-child {
+    padding-left: 20px;
+}
+
+/* Стили для последней ячейки в строке (опционально) */
+td:last-child, th:last-child {
+    padding-right: 20px;
+}
